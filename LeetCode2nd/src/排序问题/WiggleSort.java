@@ -6,6 +6,8 @@ public class WiggleSort {
 	/**
 	 * 280. Wiggle Sort
 	 * nums[0] <= nums[1] >= nums[2] <= nums[3]...
+     * 5 2 9 0 2 1 6
+     * 2 9 0 5 1 6 2
 	 */
 	public void wiggleSort(int[] nums) {
         if(nums == null || nums.length <= 1) return;
@@ -26,7 +28,11 @@ public class WiggleSort {
         nums[i] = nums[j];
         nums[j] = tmp;
     }
-    
+
+    /**
+     *
+     */
+
     /**
      * 324. Wiggle Sort II
      * nums[0] < nums[1] > nums[2] < nums[3]...

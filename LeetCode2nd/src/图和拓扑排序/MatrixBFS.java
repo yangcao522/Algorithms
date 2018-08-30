@@ -86,4 +86,69 @@ public class MatrixBFS {
 		}
 		return dist;
 	}
+
+
+	/**
+	 * 317. Shortest Distance from All Buildings
+	 * 1.因为有障碍物，所以296题的方法失效
+	 * 2.转而思考BFS的方法，从每个建筑物出发，计算建筑物到每一块空地的最短距离。
+	 * 每个点的距离每次进行叠加，即这一点到所有建筑物的最短距离之和。
+	 * 3.如何避免访问已经访问过的点？如何确保只考虑可以到达所有建筑物的点？这一题的mark技巧值得研究。
+	 * 刚开始空地是0，从第一个建筑出发，访问到的全部置-1，这样确保在访问的过程中不会再去访问-1的点。
+	 * 从第二个建筑出发的时候，访问的全部置-2，只能访问-1的点。
+	 * 从第三个建筑出发的时候，访问的全部置-3，只能访问-2的点。
+	 * 。。。
+	 * 最后只有当那些位置的标记和最终的标记(code里的mark)相等时，才能代表这一点可以到达所有建筑。
+	 */
+	public int shortestDistance(int[][] grid) {
+		if(grid == null || grid.length == 0) return 0;
+		int[][] dist = new int[grid.length][grid[0].length];
+		int mark = 0;
+
+		for(int i = 0; i < grid.length; i++){
+			for(int j = 0; j < grid[0].length; j++){
+				if(grid[i][j] == 1){
+					bfs(grid, dist, mark, i, j);
+					mark --;
+				}
+			}
+		}
+		int res = Integer.MAX_VALUE;
+		for(int i = 0; i < grid.length; i++){
+			for(int j = 0; j < grid[0].length; j++){
+				if(mark == grid[i][j]){
+					res = Math.min(res, dist[i][j]);
+				}
+			}
+		}
+
+		return res == Integer.MAX_VALUE ? -1 : res;
+	}
+
+	private void bfs(int[][] grid, int[][] dist, int mark, int i, int j){
+		Queue<int[]> q = new LinkedList<>();
+		q.offer(new int[]{i, j});
+		int[] dirs = new int[]{-1, 0, 1, 0, -1};
+		int distance = 1;
+		while(!q.isEmpty()){
+			int size = q.size();
+			for(int l = 0; l < size; l++){
+				int[] cur = q.poll();
+				for(int k = 0; k < 4; k++){
+					int next_i = cur[0] + dirs[k];
+					int next_j = cur[1] + dirs[k + 1];
+					if(next_i >= 0 && next_i < grid.length && next_j >= 0
+							&& next_j < grid[0].length && grid[next_i][next_j] == mark){
+						grid[next_i][next_j] = mark - 1;
+						System.out.println(grid[i][j]);
+						dist[next_i][next_j] += distance;
+						q.offer(new int[]{next_i, next_j});
+
+					}
+				}
+			}
+			distance ++;
+		}
+
+	}
 }

@@ -4,7 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Subsets {
-	//传统的DFS方法：
+	/**
+	 * 78. Subsets
+	 */
+	/**
+	 * DFS的方法
+	 */
 	public List<List<Integer>> subsetsI(int[] nums){
 		List<Integer> tmp = new ArrayList<>();
 		List<List<Integer>> res = new ArrayList<>();
@@ -20,8 +25,10 @@ public class Subsets {
 			tmp.remove(tmp.size() - 1);
 		}
 	}
-	
-	//iterative的方法：
+
+	/**
+	 * iterative的方法：
+	 */
 	/**
 	 * {1, 2, 3}
 	 * step 1: {[]}
