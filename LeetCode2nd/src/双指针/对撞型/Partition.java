@@ -83,6 +83,10 @@ public class Partition {
         }
         return res.val;
     }
+    /**
+     * 关联题目：373. Find K Pairs with Smallest Sums
+     * 相似的heap解法。
+     */
 
     /**
      * 快排的本质是2-way partition
