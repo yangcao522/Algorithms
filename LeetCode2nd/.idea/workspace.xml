@@ -2,13 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1403ee4-2118-4bc3-8e3b-090603eebf0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/双指针/复杂问题/HardSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Integer操作相关/IntegerToEnglishWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator设计/Peeking类型/NestedIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator设计/Peeking类型/PeekingIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator设计/Peeking类型/PostOrderIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator设计/Peeking类型/Vector2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator设计/RLEIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Majority问题/MajorityElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sequence序列问题/SubSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inSpace的Matrix操作/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inSpace的Matrix操作/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inSpace的Matrix操作/StateChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/位操作/Bit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/位操作/位存储节省空间/pyramidTransition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/几何问题/TriangleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/双指针/窗口类型/OtherSlideWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数学符号/Operators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数学符号/Parentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/滑动窗口/SlidingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/经典数据结构设计/LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/经典数据结构设计/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/经典数据结构设计/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/随机类型/RandomPickIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/随机类型/RandomPickWithWeight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/双指针/TrapRainWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/双指针/对撞型/Partition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/双指针/对撞型/Partition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/排序问题/WiggleSort$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/排序问题/WiggleSort$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/排序问题/WiggleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/排序问题/WiggleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/双指针/TrapRainWater.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/双指针/对撞型/Partition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/双指针/对撞型/Partition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序问题/WiggleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序问题/WiggleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/窗口类型/SubstringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/双指针/窗口类型/SubstringProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/窗口类型/SubstringProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/图和拓扑排序/DirectedCircleDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/图和拓扑排序/DirectedCircleDetect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/图和拓扑排序/UnDirectedCircleDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/图和拓扑排序/UnDirectedCircleDetect.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,67 +47,98 @@
         <counts>
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="1" />
-          <entry key="java" value="22" />
+          <entry key="java" value="72" />
           <entry key="summary" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="71" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5880" />
+          <entry key="dummy" value="19" />
+          <entry key="java" value="16837" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5880" />
+          <entry key="JAVA" value="16837" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/双指针/对撞型/Partition.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/DirectedCircleDetect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+            <state relative-caret-position="1082">
+              <caret line="123" column="25" lean-forward="true" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/MatrixBFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/TopologicalSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1104">
+              <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/UnDirectedCircleDetect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sequence序列问题/SubSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1905#1906#0" expanded="true" />
+                <element signature="e#1969#1970#0" expanded="true" />
+                <element signature="e#2010#2011#0" expanded="true" />
+                <element signature="e#2052#2053#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/排序问题/WiggleSort.java">
+        <entry file="file://$PROJECT_DIR$/src/滑动窗口/SlidingWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/排序问题/SortColors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="114">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -91,17 +146,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/双指针/窗口类型/SubstringProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1076">
+            <state relative-caret-position="2774">
               <caret line="147" column="16" lean-forward="true" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/双指针/复杂问题/HardSubstring.java">
+        <entry file="file://$PROJECT_DIR$/src/双指针/窗口类型/OtherSlideWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="122">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding>
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/几何问题/TriangleArea.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,46 +180,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/二分搜索/LISProblem.java">
+        <entry file="file://$PROJECT_DIR$/src/排序问题/IntervalProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/二分搜索/MedianProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/二分搜索/RotatedSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/二分搜索/summary">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/双指针/对撞型/ContainerWithMOstWater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+            <state relative-caret-position="76">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -163,6 +197,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PostOrderIterator</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -181,6 +220,33 @@
         <option value="$PROJECT_DIR$/src/双指针/复杂问题/HardSubstring.java" />
         <option value="$PROJECT_DIR$/src/双指针/窗口类型/SubstringProblem.java" />
         <option value="$PROJECT_DIR$/src/双指针/对撞型/Partition.java" />
+        <option value="$PROJECT_DIR$/src/数学符号/Parentheses.java" />
+        <option value="$PROJECT_DIR$/src/数学符号/Operators.java" />
+        <option value="$PROJECT_DIR$/src/Iterator设计/PeekingIterator.java" />
+        <option value="$PROJECT_DIR$/src/Iterator设计/Peeking类型/PeekingIterator.java" />
+        <option value="$PROJECT_DIR$/src/Iterator设计/Peeking类型/Vector2D.java" />
+        <option value="$PROJECT_DIR$/src/Iterator设计/Peeking类型/NestedIterator.java" />
+        <option value="$PROJECT_DIR$/src/Iterator设计/Peeking类型/PostOrderIterator.java" />
+        <option value="$PROJECT_DIR$/src/Majority问题/MajorityElements.java" />
+        <option value="$PROJECT_DIR$/src/inSpace的Matrix操作/StateChange.java" />
+        <option value="$PROJECT_DIR$/src/inSpace的Matrix操作/RotateImage.java" />
+        <option value="$PROJECT_DIR$/src/inSpace的Matrix操作/SpiralMatrix.java" />
+        <option value="$PROJECT_DIR$/src/经典数据结构设计/Test.java" />
+        <option value="$PROJECT_DIR$/src/经典数据结构设计/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/经典数据结构设计/LFUCache.java" />
+        <option value="$PROJECT_DIR$/src/滑动窗口/SlidingWindow.java" />
+        <option value="$PROJECT_DIR$/src/Integer操作相关/IntegerToEnglishWord.java" />
+        <option value="$PROJECT_DIR$/src/位操作/位存储节省空间/pyramidTransition.java" />
+        <option value="$PROJECT_DIR$/src/inSpace的Matrix操作/Image.java" />
+        <option value="$PROJECT_DIR$/src/随机类型/RandomPickIndex.java" />
+        <option value="$PROJECT_DIR$/src/随机类型/RandomPickWithWeight.java" />
+        <option value="$PROJECT_DIR$/src/Iterator设计/RLEIterator.java" />
+        <option value="$PROJECT_DIR$/src/图和拓扑排序/DirectedCircleDetect.java" />
+        <option value="$PROJECT_DIR$/src/图和拓扑排序/UnDirectedCircleDetect.java" />
+        <option value="$PROJECT_DIR$/src/字符串类型/SubSequence.java" />
+        <option value="$PROJECT_DIR$/src/Sequence序列问题/SubSequence.java" />
+        <option value="$PROJECT_DIR$/src/双指针/窗口类型/OtherSlideWindow.java" />
+        <option value="$PROJECT_DIR$/src/几何问题/TriangleArea.java" />
       </list>
     </option>
   </component>
@@ -191,8 +257,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-2560" />
-    <option name="y" value="-390" />
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -220,33 +284,25 @@
               <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="二分搜索" type="462c0819:PsiDirectoryNode" />
+              <item name="Sequence序列问题" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="单调栈或队列" type="462c0819:PsiDirectoryNode" />
+              <item name="几何问题" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="双指针" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="双指针" type="462c0819:PsiDirectoryNode" />
-              <item name="复杂问题" type="462c0819:PsiDirectoryNode" />
+              <item name="动态规划" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="双指针" type="462c0819:PsiDirectoryNode" />
-              <item name="对撞型" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
@@ -259,21 +315,33 @@
               <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="排序问题" type="462c0819:PsiDirectoryNode" />
+              <item name="字符串类型" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="滑动窗口" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="随机类型" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535969169744" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538971857445" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -289,13 +357,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WiggleSort">
-    <configuration name="ContainerWithMOstWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双指针.对撞型.ContainerWithMOstWater" />
+  <component name="RunManager" selected="Application.TriangleArea">
+    <configuration name="IntegerToEnglishWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Integer操作相关.IntegerToEnglishWord" />
       <module name="LeetCode2nd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="双指针.对撞型.*" />
+          <option name="PATTERN" value="Integer操作相关.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Partition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双指针.对撞型.Partition" />
+    <configuration name="MajorityElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Majority问题.MajorityElements" />
       <module name="LeetCode2nd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="双指针.对撞型.*" />
+          <option name="PATTERN" value="Majority问题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,12 +384,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WiggleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="排序问题.WiggleSort" />
+    <configuration name="PostOrderIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Iterator设计.Peeking类型.PostOrderIterator" />
       <module name="LeetCode2nd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="排序问题.*" />
+          <option name="PATTERN" value="Iterator设计.Peeking类型.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="经典数据结构设计.Test" />
+      <module name="LeetCode2nd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="经典数据结构设计.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="几何问题.TriangleArea" />
+      <module name="LeetCode2nd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="几何问题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -330,15 +424,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ContainerWithMOstWater" />
-      <item itemvalue="Application.Partition" />
-      <item itemvalue="Application.WiggleSort" />
+      <item itemvalue="Application.PostOrderIterator" />
+      <item itemvalue="Application.MajorityElements" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.IntegerToEnglishWord" />
+      <item itemvalue="Application.TriangleArea" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WiggleSort" />
-        <item itemvalue="Application.Partition" />
-        <item itemvalue="Application.ContainerWithMOstWater" />
+        <item itemvalue="Application.TriangleArea" />
+        <item itemvalue="Application.IntegerToEnglishWord" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MajorityElements" />
+        <item itemvalue="Application.PostOrderIterator" />
       </list>
     </recent_temporary>
   </component>
@@ -351,18 +449,19 @@
       <updated>1533415490010</updated>
       <workItem from="1533415495753" duration="8839000" />
       <workItem from="1534835142598" duration="26843000" />
-      <workItem from="1535694150352" duration="7851000" />
+      <workItem from="1535694150352" duration="25869000" />
+      <workItem from="1536731331102" duration="42013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43533000" />
+    <option name="totallyTimeSpent" value="103564000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="-390" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14217633" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18803419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -372,14 +471,14 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20816326" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29489052" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20714286" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24233577" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.14379562" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24963504" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32919708" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -399,33 +498,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/经典数据结构设计/Test.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/搜索与回溯.fxml" />
     <entry file="file://$PROJECT_DIR$/src/Intellijtest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/Hierholzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/DeepCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/TopologicalSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -438,43 +527,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/MatrixBFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/双指针/对撞型/TrapRainWater.java" />
     <entry file="file://$PROJECT_DIR$/src/二分搜索/BasicMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/二分搜索/BasicSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/二分搜索/LISProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/二分搜索/MedianProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/二分搜索/RotatedSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -499,16 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/双指针/窗口类型/SubstringProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1076">
-          <caret line="147" column="16" lean-forward="true" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -522,6 +566,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/双指针/对撞型/Partition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数学符号/Parentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2546">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数学符号/Operators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Iterator设计/Peeking类型/Vector2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/排序问题/SortColors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -529,10 +610,287 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/双指针/对撞型/Partition.java">
+    <entry file="file://$PROJECT_DIR$/src/Majority问题/MajorityElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        <state relative-caret-position="285">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="830" selection-start-line="830" selection-end-line="830" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/经典数据结构设计/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/经典数据结构设计/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/经典数据结构设计/LFUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Integer操作相关/IntegerToEnglishWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/位操作/Bit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/位操作/位存储节省空间/pyramidTransition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inSpace的Matrix操作/SpiralMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inSpace的Matrix操作/StateChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inSpace的Matrix操作/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/二分搜索/LISProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/二分搜索/BasicSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-904">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/二分搜索/MedianProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/二分搜索/RotatedSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/二分搜索/Search2DMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/随机类型/RandomPickIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/随机类型/RandomPickWithWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Iterator设计/Peeking类型/NestedIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Iterator设计/Peeking类型/PeekingIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Iterator设计/Peeking类型/PostOrderIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Iterator设计/BSTIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Iterator设计/HoppingIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Iterator设计/RLEIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/DeepCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/Hierholzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/MatrixBFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/TopologicalSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/DirectedCircleDetect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1082">
+          <caret line="123" column="25" lean-forward="true" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/UnDirectedCircleDetect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序问题/IntervalProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/滑动窗口/SlidingWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/双指针/窗口类型/SubstringProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2774">
+          <caret line="147" column="16" lean-forward="true" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sequence序列问题/SubSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#1969#1970#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="e#2052#2053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/双指针/窗口类型/OtherSlideWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/几何问题/TriangleArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

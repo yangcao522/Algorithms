@@ -11,19 +11,22 @@ public class UnDirectedCircleDetect {
 	 * 无向图会出现“原路返回”的情况。
 	 */
 	/**
-	 * DFS
-	 * 与有向图相比，加上一个prev，确保不会往回访问。
+	 * 类型题目
+	 * 261. Graph Valid Tree
+	 * 802. Find Eventual Safe States
 	 */
 	/**
+	 * DFS
+	 * 与有向图相比，加上一个prev，确保不会往回访问。
 	 * 261. Graph Valid Tree
 	 */
 	public boolean validTree(int n, int[][] edges) {
         ArrayList[] graph = new ArrayList[n];
-        	int[] states = new int[n];
-        
-        	for(int i = 0; i < n; i++) {
-        		graph[i] = new ArrayList<Integer>();
-        	}
+        int[] states = new int[n];
+
+        for(int i = 0; i < n; i++) {
+        	graph[i] = new ArrayList<Integer>();
+        }
         	
         	for(int i = 0; i < edges.length; i++) {
         		graph[edges[i][0]].add(edges[i][1]);
@@ -60,11 +63,9 @@ public class UnDirectedCircleDetect {
 		states[cur] = 2;
 		return hasCycle;
 	}
-	
+
 	/**
 	 * BFS
-	 */
-	/**
 	 * 310. Minimum Height Trees
 	 */
 	public List<Integer> findMinHeightTrees(int n, int[][] edges) {
