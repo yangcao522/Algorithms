@@ -36,8 +36,4 @@ public class IntegerToEnglishWord {
         else before = NUMS[cur] + " " + "Hundred";
         return (before + " " + after).trim();
     }
-
-    public static void main(String[] args){
-        System.out.println(numberToWords(10001));
-    }
 }

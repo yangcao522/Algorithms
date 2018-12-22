@@ -12,6 +12,9 @@ public class SubSequence {
     /**
      * 392. Is Subsequence
      * 不是substring, 不用担心重复出现的字符需要重新判断
+     * 【定理】
+     * 同时遍历s和t
+     * 如果顺利遍历s的过程中，能够把t中所有字符都匹配到，那么t一定是s的subsequence
      */
     public boolean isSubsequence(String s, String t) {
         if(s.length() == 0)
@@ -35,6 +38,8 @@ public class SubSequence {
      * 792. Number of Matching Subsequences
      * 解释看这里：https://leetcode.com/problems/number-of-matching-subsequences/discuss/117634/Efficient-and-simple-go-through-words-in-parallel-with-explanation/
      * 曾经面试面过这一题？
+     * 其实392一样的道理，需要优化，避免words中的每个word都需要做同样的判断。
+     *
      */
     public int numMatchingSubseq(String S, String[] words) {
         List<StringBuilder>[] waiting = new List[26];
@@ -108,4 +113,9 @@ public class SubSequence {
         }
         return true;
     }
+
+    /**
+     * 940. Distinct Subsequences II
+     */
+    
 }

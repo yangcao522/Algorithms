@@ -21,7 +21,13 @@ public class HouseRobber {
         }
         return cur;
     }
-	/**
+
+    /**
+     * 740. Delete and Earn
+     * 这题可以reduce到198题
+     * https://leetcode.com/submissions/detail/189056558/
+     */
+    /**
 	 * 198. House Robber I
 	 * 这个方法对这一题并无实际意义。主要是circular buffer的应用。
 	 */

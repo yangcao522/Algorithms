@@ -1,7 +1,9 @@
 package inSpace的Matrix操作;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class SpiralMatrix {
     public List<Integer> spiralOrder(int[][] matrix) {
@@ -58,5 +60,39 @@ public class SpiralMatrix {
         }
 
         return matrix;
+    }
+
+    public static int numUniqueEmails(String[] emails) {
+        Set<String> set = new HashSet<>();
+        for(String str : emails){
+            set.add(helper(str));
+        }
+        return set.size();
+    }
+
+    private static String helper(String str){
+        int i = 0;
+        StringBuilder sb = new StringBuilder();
+        while(i < str.length() && str.charAt(i) != '@'){
+            if(str.charAt(i) == '.') {
+                i++;
+                continue;
+            }
+            if(str.charAt(i) == '+'){
+                i++;
+                break;
+            }
+
+            sb.append(str.charAt(i));
+            i ++;
+        }
+        sb.append(str.substring(i));
+        System.out.println(sb.toString());
+        return sb.toString();
+    }
+
+    public static void main(String[] args){
+        String[] strs = new String[]{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
+        System.out.println(numUniqueEmails(strs));
     }
 }

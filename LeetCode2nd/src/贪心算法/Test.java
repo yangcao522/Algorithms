@@ -1,27 +1,28 @@
 package 贪心算法;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class Test {
-	public static int arrangeCoins(int n) {
-        long start = 0;
-        long end = (long)n;
-        long mid = 0;
-        
-        while(start + 1 < end){
-            mid = start + (end - start) / 2;
-            if(mid * (mid + 1) < 2 * n){
-                start = mid;
-            }else{
-                end = mid;
-            }
-        }
-        if(end * (end + 1) <= 2 * n){
-            return (int)end;
-        }else{
-            return (int)start;
+    private static int[] dir = new int[]{-1, 0, 1, 0, -1};
+    public static int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
+        helper(image, sr, sc, newColor, image[sr][sc]);
+        return image;
+    }
+
+    private static  void helper(int[][] image, int i, int j, int newColor, int oldColor){
+        if(image[i][j] != oldColor) return;
+        image[i][j] = newColor;
+        for(int d = 0; d < 4; d++){
+            int x = dir[d] + i;
+            int y = dir[d + 1] + j;
+            if(x < 0 || x >= image.length || y < 0 || y >= image[0].length) continue;
+            helper(image, x, y, newColor, oldColor);
         }
     }
 	
 	public static void main(String[] args) {
-		System.out.println(arrangeCoins(1804289383));
+
+        floodFill(new int[][]{{0,0,0}, {0,1,1}}, 1, 1, 1);
 	}
 }
