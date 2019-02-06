@@ -21,27 +21,17 @@ public class DeepCopy {
      * 1）无向图访问中充当visit[]的作用
      * 2) 取到对应的node，设置其临接node(非主要作用)
      */
+    Map<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<>();
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
         if(node == null)
             return null;
-        Map<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<UndirectedGraphNode, UndirectedGraphNode>();
+        if (map.containsKey(node)) return map.get(node);
         UndirectedGraphNode newNode = new UndirectedGraphNode(node.label);
         map.put(node, newNode);
-
-        DFS(map, node);
-        return newNode;
-    }
-
-    private void DFS(Map<UndirectedGraphNode, UndirectedGraphNode> map, UndirectedGraphNode node){
-        if(null == node)
-            return;
-        for(UndirectedGraphNode x : node.neighbors){
-            if(map.get(x) == null){
-                map.put(x, new UndirectedGraphNode(x.label));
-                DFS(map, x);
-            }
-            map.get(node).neighbors.add(map.get(x));
+        for (UndirectedGraphNode child : node.neighbors) {
+            newNode.neighbors.add(cloneGraph(child));
         }
+        return newNode;
     }
 
     /**
@@ -50,26 +40,16 @@ public class DeepCopy {
     public UndirectedGraphNode cloneGraph2Directed(UndirectedGraphNode node) {
         if(node == null)
             return null;
-        Map<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<UndirectedGraphNode, UndirectedGraphNode>();
+        if (map.containsKey(node)) return map.get(node);
         UndirectedGraphNode newNode = new UndirectedGraphNode(node.label);
         map.put(node, newNode);
-
-        DFS(map, node);
+        for (UndirectedGraphNode child : node.neighbors) {
+            if (child.label < node.label) continue;
+            newNode.neighbors.add(cloneGraph(child));
+        }
         return newNode;
     }
 
-    private void DFS2Directed(Map<UndirectedGraphNode, UndirectedGraphNode> map, UndirectedGraphNode node){
-        if(null == node)
-            return;
-        for(UndirectedGraphNode x : node.neighbors){
-            if(map.get(x) == null){
-                map.put(x, new UndirectedGraphNode(x.label));
-                DFS(map, x);
-            }
-            if(node.label < x.label) {
-                map.get(node).neighbors.add(map.get(x));
-            }
-        }
-    }
+
 
 }

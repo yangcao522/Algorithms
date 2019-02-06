@@ -136,24 +136,18 @@ public class TopologicalSort {
     public String alienOrder(String[] words) {
     	HashMap<Character, Node> map = new HashMap<>();
         StringBuilder sb = new StringBuilder();
-
         if(words.length == 1) return words[0];
-
         buildGraph(words, map);
-       
         for(char i : map.keySet()){
             if(map.get(i).state == 0 && dfs(i, sb, map)) return "";
         }
-
         return sb.reverse().toString();
     }
     
     private boolean dfs(char cur, StringBuilder sb, HashMap<Character, Node> map) {
         Node node = map.get(cur);
-
         node.state = 1;
         boolean hasCycle = false;
-        
         for(char next : node.children) {
         	if(map.get(next).state == 1) 
         		hasCycle = true;
@@ -161,10 +155,8 @@ public class TopologicalSort {
                 hasCycle = hasCycle || dfs(next, sb, map);
             }
         }
-
         node.state = 2;
         sb.append(node.val);
-
         return hasCycle;
     }
     

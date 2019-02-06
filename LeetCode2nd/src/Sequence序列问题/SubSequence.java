@@ -14,7 +14,7 @@ public class SubSequence {
      * 不是substring, 不用担心重复出现的字符需要重新判断
      * 【定理】
      * 同时遍历s和t
-     * 如果顺利遍历s的过程中，能够把t中所有字符都匹配到，那么t一定是s的subsequence
+     * 如果顺利遍历t的过程中，能够把s中所有字符都匹配到，那么s一定是t的subsequence
      */
     public boolean isSubsequence(String s, String t) {
         if(s.length() == 0)
@@ -113,9 +113,4 @@ public class SubSequence {
         }
         return true;
     }
-
-    /**
-     * 940. Distinct Subsequences II
-     */
-    
 }

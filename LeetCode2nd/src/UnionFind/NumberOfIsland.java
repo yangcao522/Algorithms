@@ -18,9 +18,9 @@ public class NumberOfIsland {
 			while(root != parents.get(root)) {
 				root = parents.get(root);
 			}
-			
+			//路径压缩
 			while(num != root) {
-				Integer next =  parents.get(num);
+				Integer next = parents.get(num);
 				parents.put(next, root);
 				num = next;
 			}
@@ -44,6 +44,10 @@ public class NumberOfIsland {
 			}
 			count --;
 		}
+
+		/**
+		 * 这就是所谓的动态的
+		 */
 		public void add(Integer num) {
 			if(!parents.containsKey(num)) {
 				parents.put(num, num);
@@ -56,7 +60,7 @@ public class NumberOfIsland {
 		}
 	}
 	public List<Integer> numIslands2(int m, int n, int[][] positions) {
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new ArrayList<>();
         if(positions == null || positions.length == 0) return list;
         unionfind uf = new unionfind();
 

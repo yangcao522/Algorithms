@@ -129,8 +129,61 @@ public class Parentheses {
      * 怎样remove呢？
      * 每个括号都可以存在或不存在，我们可以通过三个变量来确保枚举的某一种可能是符合条件的。
      * 1.leftCount == 0 2.rightCount == 0 3.openCount == 0(这是确保合理性的)
+     * 注意点：
+     * 1.先删除 ')' (这样搜索空间会缩小一些)
+     * 2.去重
      */
+    private List<String> ans = new ArrayList<>();
 
+    public List<String> removeInvalidParentheses(String s) {
+        int cnt = 0;
+        int r = 0;
+        int l = 0;
+        for (char c : s.toCharArray()) {
+            if (c == '(') cnt ++;
+            if (c == ')') {
+                cnt --;
+                if (cnt < 0) {
+                    r ++;
+                    cnt = 0;
+                }
+            }
+        }
+        if (cnt >= 0) l = cnt;
+        System.out.println(l + ":" + r);
+        helper(s, l, r, 0);
+        return ans;
+    }
+
+    private void helper(String s, int l, int r, int start) {
+        if (l == 0 && r == 0 && isValid(s)) {
+            ans.add(s);
+            return;
+        }
+
+        for (int i = start; i < s.length(); i++) {
+            if (start != i && s.charAt(i - 1) == s.charAt(i)) continue;
+            StringBuilder cur = new StringBuilder(s);
+            if (s.charAt(i) == ')' && r > 0) {
+                cur.deleteCharAt(i);
+                helper(cur.toString(), l, r - 1, i);
+            } else if(s.charAt(i) == '(' && l > 0) {
+                cur.deleteCharAt(i);
+                helper(cur.toString(), l - 1, r, i);
+            }
+        }
+    }
+
+
+    private boolean isValid(String s) {
+        int cnt = 0;
+        for (char c : s.toCharArray()) {
+            if (c == '(') cnt ++;
+            if (c == ')') cnt --;
+            if (cnt < 0) return false;
+        }
+        return cnt == 0;
+    }
 
 
 

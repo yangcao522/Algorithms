@@ -28,40 +28,38 @@ public class UnDirectedCircleDetect {
         	graph[i] = new ArrayList<Integer>();
         }
         	
-        	for(int i = 0; i < edges.length; i++) {
-        		graph[edges[i][0]].add(edges[i][1]);
-        		graph[edges[i][1]].add(edges[i][0]);
-        	}
+		for(int i = 0; i < edges.length; i++) {
+			graph[edges[i][0]].add(edges[i][1]);
+			graph[edges[i][1]].add(edges[i][0]);
+		}
         	
-        	//从0开始就应该访问到所有点
-        	//要是有环，那就不是tree
-        	if(dfs(-1, 0, graph, states)) return false;
+		//从0开始就应该访问到所有点
+		//要是有环，那就不是tree
+		if(dfs(-1, 0, graph, states)) return false;
 
-        	//还有没访问到的点，那说明是森林，不是tree
+		//还有没访问到的点，那说明是森林，不是tree
         for(int state : states){
             if(state == 0) return false;
         }
         
-        	return true;
+		return true;
     }
-	
+
 	private boolean dfs(int prev, int cur, ArrayList[] graph, int[] states) {
+		if (states[cur] == 1) return true;
 		states[cur] = 1;
-		boolean hasCycle = false;
-		
+
 		for(int i = 0; i < graph[cur].size(); i++) {
 			int next = (int)graph[cur].get(i);
 			if(next != prev) {
-				if(states[next] == 1) {
+				if (dfs(cur, next, graph, states)) {
 					return true;
-				}else if(states[next] == 0) {
-					hasCycle = hasCycle || dfs(cur, next, graph, states);
 				}
 			}
 		}
-		
+
 		states[cur] = 2;
-		return hasCycle;
+		return false;
 	}
 
 	/**
@@ -77,35 +75,35 @@ public class UnDirectedCircleDetect {
         }
         
         for(int i = 0; i < edges.length; i++) {
-        		graph[edges[i][0]].add(edges[i][1]);
-        		graph[edges[i][1]].add(edges[i][0]);
-        		degrees[edges[i][0]] ++;
-        		degrees[edges[i][1]] ++;
+			graph[edges[i][0]].add(edges[i][1]);
+			graph[edges[i][1]].add(edges[i][0]);
+			degrees[edges[i][0]] ++;
+			degrees[edges[i][1]] ++;
         }
         
         Queue<Integer> q = new LinkedList<Integer>();
         
         for(int i = 0; i < n; i++) {
-        		if(degrees[i] == 1) {
-        			q.offer(i);
-        		}
+			if(degrees[i] == 1) {
+				q.offer(i);
+			}
         }
-        
+
         List<Integer> res = new ArrayList<>();
         while(!q.isEmpty()) {
-        		int size = q.size();
-        		res.clear();
-        		for(int i = 0; i < size; i++) {
-        			int cur = q.poll();
-        			res.add(cur);
-        			for(int j = 0; j < graph[cur].size(); j++) {
-        				int next = (int) graph[cur].get(j);
-        				degrees[next] --;
-        				if(degrees[next] == 1) {
-        					q.offer(next);
-        				}
-        			}
-        		}
+			int size = q.size();
+			res.clear();
+			for(int i = 0; i < size; i++) {
+				int cur = q.poll();
+				res.add(cur);
+				for(int j = 0; j < graph[cur].size(); j++) {
+					int next = (int) graph[cur].get(j);
+					degrees[next] --;
+					if(degrees[next] == 1) {
+						q.offer(next);
+					}
+				}
+			}
         }
         return res;  
     }

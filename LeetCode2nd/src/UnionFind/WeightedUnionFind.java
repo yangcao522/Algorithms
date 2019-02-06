@@ -2,11 +2,18 @@ package UnionFind;
 import java.util.HashMap;
 
 public class WeightedUnionFind {
+    /**
+     * parent 当前节点->父节点 map
+     * size 当前节点->以其为根的tree的size
+     */
 	private HashMap<Integer, Integer> parent;
-    private HashMap<Integer, Integer> size;
+	private HashMap<Integer, Integer> size;
     private int maxSize;
 
-    public WeightedUnionFind(){}
+    /**
+     * 初始化
+     * 注意有种动态的add(num)方法，动态的往disjointed set加元素的。
+     */
     public WeightedUnionFind(int[] nums){
         int N = nums.length;
         parent = new HashMap<Integer, Integer>();
@@ -19,12 +26,11 @@ public class WeightedUnionFind {
         }
     }
 
-    private int getMaxSize(){
-        return this.maxSize;
-    }
-
-    // With path compression
-    //worst o(n)
+    /**
+     * With path compression
+     * Normal O(logN)
+     * Worst O(N)
+     */
     public Integer find(Integer num){
         if(!parent.containsKey(num)) return null;
         //root 就是当前 num 的根节点
@@ -38,10 +44,12 @@ public class WeightedUnionFind {
             parent.put(num, root);
             num = next;
         }
-
         return root;
     }
-    //O(1)
+
+    /**
+     * 近似O(1), 不可能find每次都路径压缩
+     */
     public void union(int p, int q){
         Integer pRoot = find(p);
         Integer qRoot = find(q);

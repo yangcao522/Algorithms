@@ -57,6 +57,7 @@ public class CalendarProblem {
 			for(int v : map.values()) {
 				res += v;
 				if(res >= 3) {
+					//不能放入，需要复原
 					map.put(start, map.getOrDefault(start, 0) - 1);
 					map.put(end, map.getOrDefault(end, 0) + 1);
 					if(map.get(start) == 0) map.remove(start);

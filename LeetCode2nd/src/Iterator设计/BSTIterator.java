@@ -27,13 +27,13 @@ public class BSTIterator {
 
     /** @return the next smallest number */
     public int next() {
-    		TreeNode next = stack.pop();
-    		int res = next.val;
-    		TreeNode cur = next.right;
-    		while(cur != null) {
-    			stack.push(cur);
-    			cur = cur.left;
-    		}
+    	TreeNode next = stack.pop();
+    	int res = next.val;
+    	TreeNode cur = next.right;
+		while(cur != null) {
+			stack.push(cur);
+			cur = cur.left;
+		}
         return res;
     }
 }

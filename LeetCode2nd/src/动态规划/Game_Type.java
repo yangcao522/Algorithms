@@ -61,8 +61,8 @@ public class Game_Type {
 			return 0;
 		}
 		if(dp[coins] != -1) return dp[coins];
-		int takeOne = values[n - coins] + Math.min(search(n - 2, dp, values, n), search(n - 3, dp, values, n));
-		int takeTwo = values[n - coins] + values[n - coins + 1] + Math.min(search(n - 3, dp, values, n), search(n - 4, dp, values, n));
+		int takeOne = values[n - coins] + Math.min(search(coins - 2, dp, values, n), search(coins - 3, dp, values, n));
+		int takeTwo = values[n - coins] + values[n - coins + 1] + Math.min(search(coins - 3, dp, values, n), search(coins - 4, dp, values, n));
 		int max = Math.max(takeOne, takeTwo);
 		dp[coins] = max;
 		return max;
@@ -121,32 +121,32 @@ public class Game_Type {
      * 464. Can I Win
      */
     public boolean canIWin(int maxChoosableInteger, int desiredTotal) {
-    		if(desiredTotal <= 0) return false;
-    		if((1 + maxChoosableInteger) * maxChoosableInteger / 2 < desiredTotal) return false;
-    		boolean[] visited = new boolean[maxChoosableInteger + 1];
-    		Map<String, Boolean> map = new HashMap<>();
-    		return helper(map, desiredTotal, visited);
+        if(desiredTotal <= 0) return false;
+        if((1 + maxChoosableInteger) * maxChoosableInteger / 2 < desiredTotal) return false;
+        boolean[] visited = new boolean[maxChoosableInteger + 1];
+        Map<String, Boolean> map = new HashMap<>();
+        return helper(map, desiredTotal, visited);
     }
     
     private boolean helper(Map<String, Boolean> map, int desiredTotal, boolean[] visited) {
-    		if(desiredTotal < 0) return false;
-    		String key = format(visited);
-    		if(map.containsKey(key)) {
-    			return map.get(key);
-    		}
-    		for(int i = 1; i < visited.length; i++) {
-    			if(visited[i] == false) {
-    				visited[i] = true;
-    				if(!helper(map, desiredTotal - i, visited)) {
-    					map.put(key, true);
-    					visited[i] = false;
-    					return true;
-    				}
-    				visited[i] = false;
-    			}
-    		}
-    		map.put(key, false);
-    		return false;
+        if(desiredTotal < 0) return false;
+        String key = format(visited);
+        if(map.containsKey(key)) {
+            return map.get(key);
+        }
+        for(int i = 1; i < visited.length; i++) {
+            if(visited[i] == false) {
+                visited[i] = true;
+                if(!helper(map, desiredTotal - i, visited)) {
+                    map.put(key, true);
+                    visited[i] = false;
+                    return true;
+                }
+                visited[i] = false;
+            }
+        }
+        map.put(key, false);
+        return false;
     }
     
     private String format(boolean[] visited) {
@@ -160,6 +160,7 @@ public class Game_Type {
     		}
     		return sb.toString();
     }
+
 }
 
 
