@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1403ee4-2118-4bc3-8e3b-090603eebf0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Google面经/CardGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/CokeSelection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/CompleteTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/DiceToWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/ExpireHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/InheritKing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/RegexMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/Rythme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/Somorphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/StockSnapShot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/SumOfMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/TreeMaxPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/majorityN4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Iterator设计/PairIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Iterator设计/PalidromeIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/EvaluateDivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/RedundantConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/单调栈或队列/DailyTemperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/特殊数组/Peak数组/peakArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BFS难题/ShortestPathGetAllKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BFS难题/ShortestPathVisitingAllNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BFS难题/TrappingWater3D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/动态规划/Game_Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/动态规划/Game_Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/排序问题/CalendarProblem$MyCalendarTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/排序问题/CalendarProblem$MyCalendarTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iterator设计/BSTIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator设计/BSTIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sequence序列问题/SubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sequence序列问题/SubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind/NumberOfIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/NumberOfIsland.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind/WeightedUnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/WeightedUnionFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/几何问题/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/几何问题/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/Game_Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/Game_Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/单调栈或队列/LargestRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/单调栈或队列/LargestRectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/图和拓扑排序/DeepCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/图和拓扑排序/DeepCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/图和拓扑排序/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/图和拓扑排序/TopologicalSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/图和拓扑排序/UnDirectedCircleDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/图和拓扑排序/UnDirectedCircleDetect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排序问题/CalendarProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序问题/CalendarProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数学符号/Parentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数学符号/Parentheses.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,13 +28,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="1" />
-          <entry key="java" value="186" />
+          <entry key="java" value="190" />
           <entry key="summary" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="185" />
+          <entry key="JAVA" value="189" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
         </counts>
@@ -73,12 +42,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="35485" />
+          <entry key="java" value="36261" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="35485" />
+          <entry key="JAVA" value="36261" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -87,54 +56,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UnionFind/WeightedUnionFind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UnionFind/NumberOfIsland.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1258#1259#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UnionFind/EvaluateDivision.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UnionFind/BrickFalling.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-296">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UnionFind/RedundantConnection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="589">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,6 +85,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/动态规划/Game_Type.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="147" column="28" lean-forward="true" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/单调栈或队列/IncreasingTriplet.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -171,18 +105,52 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/单调栈或队列/LargestRectangle.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/数学符号/Operators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="-52">
+              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/数学符号/Operators.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BFS难题/ShortestPathGetAllKeys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-209">
-              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="95">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BFS难题/TrappingWater3D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-125">
+              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BFS难题/ShortestPathVisitingAllNodes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,9 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inSpace的Matrix操作/Image.java" />
-        <option value="$PROJECT_DIR$/src/随机类型/RandomPickIndex.java" />
-        <option value="$PROJECT_DIR$/src/随机类型/RandomPickWithWeight.java" />
         <option value="$PROJECT_DIR$/src/Iterator设计/RLEIterator.java" />
         <option value="$PROJECT_DIR$/src/图和拓扑排序/DirectedCircleDetect.java" />
         <option value="$PROJECT_DIR$/src/字符串类型/SubSequence.java" />
@@ -260,6 +225,9 @@
         <option value="$PROJECT_DIR$/src/图和拓扑排序/DeepCopy.java" />
         <option value="$PROJECT_DIR$/src/单调栈或队列/LargestRectangle.java" />
         <option value="$PROJECT_DIR$/src/数学符号/Operators.java" />
+        <option value="$PROJECT_DIR$/src/BFS难题/ShortestPathVisitingAllNodes.java" />
+        <option value="$PROJECT_DIR$/src/BFS难题/ShortestPathGetAllKeys.java" />
+        <option value="$PROJECT_DIR$/src/BFS难题/TrappingWater3D.java" />
       </list>
     </option>
   </component>
@@ -269,8 +237,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="-22" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1072" />
   </component>
@@ -296,6 +264,12 @@
               <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BFS难题" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
@@ -502,7 +476,7 @@
     <property name="SearchEverywhereHistoryKey" value="cal&#9;FILE&#9;file:///Users/yangcao/zhichihouyong/Algorithms/LeetCode2nd/src/排序问题/CalendarProblem.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549449150559" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549477035556" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -618,16 +592,15 @@
       <workItem from="1541994398783" duration="4492000" />
       <workItem from="1542767565270" duration="11731000" />
       <workItem from="1545339563747" duration="48442000" />
-      <workItem from="1548055931410" duration="33029000" />
+      <workItem from="1548055931410" duration="37879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214777000" />
+    <option name="totallyTimeSpent" value="219627000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-22" width="1680" height="1072" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2032967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -639,14 +612,14 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20612244" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20612244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2377551" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1367347" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20962566" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32919708" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -667,30 +640,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/特殊数组/Peak数组/peakArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/贪心算法/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/动态规划/SubsequenceDP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/动态规划/SubArray_Type.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-863">
@@ -934,13 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/动态规划/Game_Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="64" column="121" selection-start-line="64" selection-start-column="121" selection-end-line="64" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/单调栈或队列/NextGreater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1032,7 +974,7 @@
     <entry file="file://$PROJECT_DIR$/src/UnionFind/RedundantConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1061,16 +1003,51 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/单调栈或队列/LargestRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/数学符号/Operators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        <state relative-caret-position="-52">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BFS难题/ShortestPathVisitingAllNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BFS难题/ShortestPathGetAllKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BFS难题/TrappingWater3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/动态规划/Game_Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="147" column="28" lean-forward="true" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
         </state>
       </provider>
     </entry>
