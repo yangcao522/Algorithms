@@ -3,6 +3,7 @@ package 单调栈或队列;
 public class IncreasingTriplet {
 	/**
 	 * 334. Increasing Triplet Subsequence
+     * 本质：每次都尽量更新更小的数
 	 * 这一题是一个比较隐蔽的单调栈问题
 	 * 实际上就是维护一个size为3的单调队列
 	 * 比如：2 4 1 3 5

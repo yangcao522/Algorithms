@@ -1,22 +1,20 @@
 package Majority问题;
 
 public class MajorityElements {
-    public static int majorityElement(int[] num) {
-
-        int majorIndex=0, count = 1;
-        for(int i=1; i<num.length;i++){
-            if(num[majorIndex]==num[i]){
-                count++;
-            }else{
-                count--;
-            }
-            if(count==0){
+    public static int majorityElement(int[] nums) {
+        int cand = 0;
+        int count = 0;
+        for (int num : nums) {
+            if (cand == num) {
+                count ++;
+            } else if (count == 0){
+                cand = num;
                 count = 1;
-                majorIndex=i;
+            } else {
+                count --;
             }
-
         }
-        return num[majorIndex];
+        return cand;
     }
 
     public static void main(String[] args){

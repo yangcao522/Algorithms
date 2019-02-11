@@ -36,16 +36,19 @@ public class CokeSelection {
     public static boolean cokeSelect(List<Soda> sodas, int targlo, int targhi) {
         int[] dp = new int[9999 + 1];
         int N = dp.length;
+        //以i开头
+        Arrays.fill(dp, Integer.MAX_VALUE);
         for (Soda soda : sodas) {
             dp[soda.s] = soda.e;
         }
         for (Soda soda : sodas) {
-            for (int i = soda.e; i < N; i++) {
-                dp[i] = Math.min(dp[i - soda.e] + soda.e, dp[i]);
+            for (int i = soda.s; i < N; i++) {
+                if (dp[i - soda.s] == Integer.MAX_VALUE) continue;
+                dp[i] = Math.min(dp[i - soda.s] + soda.e, dp[i]);
             }
         }
         for (int i = 0; i < targhi; i++) {
-            if (i >= targlo && dp[i] <= targhi) {
+            if (i >= targlo && dp[i] <= targhi && dp[i] > i) {
                 return true;
             }
         }

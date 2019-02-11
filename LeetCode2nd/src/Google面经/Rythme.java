@@ -15,7 +15,7 @@ public class Rythme {
             set.add(sb.toString());
             return ;
         }
-
+        //max之前已经有的
         for (int j = 0; j < max; j++) {
             sb.append((char)('A' + j));
             helper(n, i + 1, max, set, sb);
@@ -28,7 +28,7 @@ public class Rythme {
     }
 
     public static void main(String[] args) {
-        for (String s : getResult(1)) {
+        for (String s : getResult(3)) {
             System.out.println(s);
         }
     }
