@@ -15,7 +15,7 @@ public class Trie {
 
     TrieNode root;
 
-    public Trie(){
+    public Trie() {
         root = new TrieNode();
     }
 

@@ -42,6 +42,7 @@ public class NumberOfIsland {
 				parents.put(aRoot, bRoot);
 				size.put(aRoot, aSize + bSize);
 			}
+			//每union一次，count就减少一次
 			count --;
 		}
 
@@ -59,6 +60,7 @@ public class NumberOfIsland {
 			return this.count;
 		}
 	}
+
 	public List<Integer> numIslands2(int m, int n, int[][] positions) {
         List<Integer> list = new ArrayList<>();
         if(positions == null || positions.length == 0) return list;
@@ -70,6 +72,7 @@ public class NumberOfIsland {
             int index = x * n + y;
             uf.add(index);
 
+            //四个方向union，假如不存在也没关系，在union函数里面处理了
             if(x + 1 < m)   uf.union(index, (x + 1) * n + y);
             if(x > 0)       uf.union(index, (x - 1) * n + y);
             if(y + 1 < n)   uf.union(index, x * n + y + 1);

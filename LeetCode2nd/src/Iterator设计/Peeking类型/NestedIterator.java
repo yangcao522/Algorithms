@@ -31,19 +31,19 @@ public class NestedIterator implements Iterator<Integer> {
     }
 
     public Integer internalNext(){
-        if(cur.hasNext()){
+        if (cur.hasNext()) {
             NestedInteger tmp = cur.next();
-            if(tmp.isInteger()){
+            if(tmp.isInteger()) {
                 return tmp.getInteger();
-            }else{
+            } else {
                 stack.push(cur);
                 cur = tmp.getList().iterator();
                 return internalNext();
             }
-        }else if(stack.isEmpty()){
+        } else if(!stack.isEmpty()){
             cur = stack.pop();
             return internalNext();
-        }else{
+        } else {
             return null;
         }
     }

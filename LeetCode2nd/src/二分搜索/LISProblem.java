@@ -38,9 +38,9 @@ public class LISProblem {
 	        while (i != j) {
 	            int m = (i + j) / 2;
 	            if (tails[m] < x) 
-	            		i = m + 1;
+	            	i = m + 1;
 	            else 
-	            		j = m;
+	            	j = m;
 	        }
 	        tails[i] = x;
 	        if (i == size) size++;

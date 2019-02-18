@@ -33,6 +33,9 @@ public class EvaluateDivision {
             return n;
         }
 
+        /**
+         * 这里相当于初始化或者add的时候在union的时候进行
+         */
         public void union(String s, String p, double ratio) {
             boolean hasS = parents.containsKey(s);
             boolean hasP = parents.containsKey(p);

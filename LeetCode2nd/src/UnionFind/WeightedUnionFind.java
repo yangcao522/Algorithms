@@ -35,10 +35,12 @@ public class WeightedUnionFind {
         if(!parent.containsKey(num)) return null;
         //root 就是当前 num 的根节点
         Integer root = num;
+        //直到根节点的
         while(root != parent.get(root)){
             root = parent.get(root);
         }
         //num 可能是通过一些 parent 节点到达 root 的，因此将他所有的 parent 节点的根节点全部更新为 root
+        //num -> root
         while(num != root){
             Integer next = parent.get(num);
             parent.put(num, root);
@@ -69,5 +71,19 @@ public class WeightedUnionFind {
             size.put(qRoot, pSize + qSize);
             maxSize = Math.max(maxSize, pSize + qSize);
         }
+    }
+
+    public Integer find(int num) {
+        int root = num;
+        while (root != parent.get(root)) {
+            root = parent.get(root);
+        }
+
+        while (num != root) {
+            Integer next = parent.get(num);
+            parent.put(next, root);
+            num = next;
+        }
+        return root;
     }
 }

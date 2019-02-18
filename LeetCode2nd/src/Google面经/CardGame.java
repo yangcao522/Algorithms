@@ -19,11 +19,11 @@ public class CardGame {
         int takeOne = cards[n - num] + min(search(num - 2, dp, cards, n),
                 search(num - 3, dp, cards, n),
                 search(num - 4, dp, cards, n));
-        int takeTwo = cards[n - num - 1] + cards[n - num] +
+        int takeTwo = cards[n - num] + cards[n - num + 1] +
                 min(search(num - 3, dp, cards, n),
                         search(num - 4, dp, cards, n),
                         search(num - 5, dp, cards, n));
-        int takeThree = cards[n - num - 2] + cards[n - num - 1] + cards[n - num] +
+        int takeThree = cards[n - num] + cards[n - num + 1] + cards[n - num + 2] +
                 min(search(num - 4, dp, cards, n),
                         search(num - 5, dp, cards, n),
                         search(num - 6, dp, cards, n));

@@ -4,6 +4,11 @@ import java.util.*;
 public class GuessWord {
     /**
      * https://leetcode.com/problems/guess-the-word/submissions/
+     * 如果我们选择的candidate和其余所有单词中的大部分单词都match0次，那么这个candidate很有可能和target也match0次
+     * 如果我们选择的candidate和其余所有单词中的少部分单词都match0次，那么这个candidate很有可能和target match不止0次
+     * 所以即使这个candidate不是最终的target，那么这个candidate和target match了num次，我们通过num次就可以找到接下来的candidate pool
+     * 这个candidate pool很有可能减少了很多。如果num是0的话，这个candidate pool可能会很大。因此我们要选match 0次最少的candidate，来不断的
+     * 缩小candidate pool。
      */
     class Master { public int guess(String s){return 0;} }
 

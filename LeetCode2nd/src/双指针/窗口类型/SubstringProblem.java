@@ -4,6 +4,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SubstringProblem {
+    /**
+     * 76. Minimum Window Substring
+     * 这个是找最短，当当前窗口包含所有的目标字符时，开始移动start，这样必然会导致出现unmatched，
+     * 当出现unmatched之后，又开始移动end，这样就能找到最短的。
+     *
+     * 3. Longest Substring Without Repeating Characters
+     * 159. Longest Substring with At Most Two Distinct Characters
+     * 340. Longest Substring with At Most K Distinct Characters
+     * 992. Subarrays with K Different Integers
+     */
+
 	/**
 	 * 先来一题热身，理解这个方法：
 	 * 76. Minimum Window Substring
