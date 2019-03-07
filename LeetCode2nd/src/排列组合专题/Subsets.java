@@ -1,4 +1,4 @@
-package 排列组合子集;
+package 排列组合专题;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +9,8 @@ public class Subsets {
 	 */
 	/**
 	 * DFS的方法
+	 * helper(int start, ..) : 包含num[start]的所有组合。
+	 *
 	 */
 	public List<List<Integer>> subsetsI(int[] nums){
 		List<Integer> tmp = new ArrayList<>();
@@ -16,9 +18,9 @@ public class Subsets {
 		helper(0, tmp, res, nums);
 		return res;
 	}
+
 	private void helper(int start, List<Integer> tmp, List<List<Integer>> res, int[] nums) {
-		res.add(new ArrayList<Integer>(tmp));
-		
+		res.add(new ArrayList<>(tmp));
 		for(int i = start; i < nums.length; i++) {
 			tmp.add(nums[i]);
 			helper(i+1, tmp, res, nums);

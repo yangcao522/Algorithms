@@ -27,4 +27,25 @@ public class TwoDPArrays {
         }
         return Math.min(k_p, s_p);
     }
+
+    /**
+     * 790. Domino and Tromino Tiling
+     * 3种形态->3个DP数组相互作用
+     */
+    public int numTilings(int N) {
+        int MOD = 1000000007;
+        //注意：这边需要使用long型
+        if (N == 0) return 0;
+        if (N == 1) return 1;
+        long[][] dp = new long[N][2];
+        dp[0][0] = 1;
+        dp[0][1] = 0;
+        dp[1][0] = 2;
+        dp[1][1] = 1;
+        for (int i = 2; i < N; i++) {
+            dp[i][0] = (dp[i-1][0] + dp[i-2][0] + 2 * dp[i-1][1]) % MOD;
+            dp[i][1] = (dp[i-2][0] + dp[i-1][1]) % MOD;
+        }
+        return (int)dp[N - 1][0] % MOD;
+    }
 }

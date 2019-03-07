@@ -59,4 +59,74 @@ public class GuessWord {
         }
         return ans;
     }
+
+    //leetcode minmax 解法:
+    int[][] H;
+    public void findSecretWord2(String[] wordlist, Master master) {
+        int N = wordlist.length;
+        H = new int[N][N];
+        for (int i = 0; i < N; ++i)
+            for (int j = i; j < N; ++j) {
+                int match = 0;
+                for (int k = 0; k < 6; ++k)
+                    if (wordlist[i].charAt(k) == wordlist[j].charAt(k))
+                        match++;
+                H[i][j] = H[j][i] = match;
+            }
+
+        List<Integer> possible = new ArrayList();
+        List<Integer> path = new ArrayList();
+        for (int i = 0; i < N; ++i) possible.add(i);
+
+        while (!possible.isEmpty()) {
+            int guess = solve(possible, path);
+            int matches = master.guess(wordlist[guess]);
+            if (matches == wordlist[0].length()) return;
+            List<Integer> possible2 = new ArrayList();
+            //这边就相当于缩小范围了，从原来的possible中选出和目标match了matches次数
+            for (Integer j: possible) if (H[guess][j] == matches) possible2.add(j);
+            possible = possible2;
+            //猜过的词
+            path.add(guess);
+        }
+
+    }
+
+    public int solve(List<Integer> possible, List<Integer> path) {
+        //假如只剩下两个词，随便猜一个
+        if (possible.size() <= 2) return possible.get(0);
+        List<Integer> ansgrp = possible;
+
+        //最终猜到的
+        int ansguess = -1;
+
+        //没有猜过的词遍历一边
+        for (int guess = 0; guess < H.length; ++guess) {
+            if (!path.contains(guess)) {
+                //match次数的表
+                ArrayList<Integer>[] groups = new ArrayList[7];
+                for (int i = 0; i < 7; ++i) groups[i] = new ArrayList<Integer>();
+
+                //possible中所有其他词和当前词match次数建一张表
+                for (Integer j: possible) if (j != guess) {
+                    groups[H[guess][j]].add(j);
+                }
+
+                //找到最大的group
+                ArrayList<Integer> maxgroup = groups[0];
+                for (int i = 0; i < 7; ++i) {
+                    if (groups[i].size() > maxgroup.size())
+                        maxgroup = groups[i];
+                }
+
+                //最大group里的全局最小
+                if (maxgroup.size() < ansgrp.size()) {
+                    ansgrp = maxgroup;
+                    ansguess = guess;
+                }
+            }
+        }
+
+        return ansguess;
+    }
 }

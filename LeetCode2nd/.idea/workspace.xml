@@ -2,30 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1403ee4-2118-4bc3-8e3b-090603eebf0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryIndexedTree/BIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryIndexedTree/CountOfRangeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google面经/PeopleMatchBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/扫描线/Skyline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数学相关/EnCodeAndDeCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/翻转元素/MinimumNumOfKConsecutiveBitFlips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bucket使用/ContainsDuplicateIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google面经/ContainsWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google面经/CountSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google面经/DeleteChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google面经/MergeKSortedIterators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google面经/SkipIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Google面经/分类" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree相关/IterativeTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/单调栈或队列/SlidingWindowMaximum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/Google面经/GuessWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/Google面经/GuessWord.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/Google面经/Rythme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/Google面经/Rythme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/Iterator设计/Peeking类型/NestedIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/Iterator设计/Peeking类型/NestedIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/EvaluateDivision$UnionFindSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/EvaluateDivision$UnionFindSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/EvaluateDivision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/EvaluateDivision.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/NumberOfIsland$unionfind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/NumberOfIsland$unionfind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/NumberOfIsland.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/NumberOfIsland.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/WeightedUnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/WeightedUnionFind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google面经/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Google面经/CardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/Google面经/TODO_GoogleSnapshot$Snapshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/Google面经/TODO_GoogleSnapshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/Trie/Trie$TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/Trie/Trie$TrieNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/Trie/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/Trie/Trie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/动态规划/TwoDPArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/动态规划/TwoDPArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/单调栈或队列/LargestRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/单调栈或队列/LargestRectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/双指针/窗口类型/SubstringProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/双指针/窗口类型/SubstringProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/排列组合子集/Subsets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/数学相关/EnCodeAndDeCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/数学相关/EnCodeAndDeCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/随机类型/RandomPickIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/随机类型/RandomPickIndex.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Google面经/GuessWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Google面经/GuessWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iterator设计/BSTIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator设计/BSTIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iterator设计/Peeking类型/NestedIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator设计/Peeking类型/NestedIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Google面经/Rythme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Google面经/Rythme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Google面经/TODO_GoogleSnapshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Google面经/GoogleSnapshot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind/EvaluateDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/EvaluateDivision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind/NumberOfIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/NumberOfIsland.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind/WeightedUnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/WeightedUnionFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/二分搜索/LISProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/二分搜索/LISProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/动态规划/TwoDPArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/TwoDPArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/单调栈或队列/LargestRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/单调栈或队列/LargestRectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/双指针/窗口类型/SubstringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/双指针/窗口类型/SubstringProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/排列组合子集/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排列组合专题/Subsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/随机类型/RandomPickIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/随机类型/RandomPickIndex.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,131 +56,246 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="1" />
-          <entry key="java" value="293" />
+          <entry key="java" value="338" />
           <entry key="summary" value="1" />
+          <entry key="分类" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="292" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="337" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="37" />
-          <entry key="java" value="48792" />
+          <entry key="dummy" value="41" />
+          <entry key="java" value="55758" />
+          <entry key="分类" value="524" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="48792" />
-          <entry key="PLAIN_TEXT" value="37" />
+          <entry key="JAVA" value="55758" />
+          <entry key="PLAIN_TEXT" value="565" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Google面经/CokeSelection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Google面经/CardGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/扫描线/Skyline.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/双指针/窗口类型/SubstringProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/翻转元素/MinimumNumOfKConsecutiveBitFlips.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/数学相关/Parentheses.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/数学相关/EnCodeAndDeCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="e#231#239#0" expanded="true" />
-                <element signature="e#281#290#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/滑动窗口/SlidingWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/单调栈或队列/IncreasingTriplet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/数学相关/Operators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1324">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6224256">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Google面经/Somorphic.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="95">
+                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Google面经/ExpireHashMap.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-84">
+                  <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/动态规划/Game_Type.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="524">
+                  <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Google面经/MergeKSortedIterators.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="474">
+                  <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Google面经/GoogleSnapshot.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="665">
+                  <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Google面经/DeleteChar.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="494">
+                  <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Google面经/Rythme.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="741">
+                  <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Google面经/SkipIterator.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#279#280#0" expanded="true" />
+                    <element signature="e#313#314#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/SegmentTree/SegmentTree.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-442">
+                  <caret line="3" column="50" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="52" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Google面经/CardGame.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="741">
+                  <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/随机类型/RandomPickWithWeight.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="741">
+                  <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Bucket使用/ContainsDuplicateIII.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="114">
+                  <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#135#136#0" expanded="true" />
+                    <element signature="e#209#210#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/单调栈或队列/LargestRectangle.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="437">
+                  <caret line="23" selection-start-line="23" selection-end-line="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/拼凑数字类型/CreateMaximumNumber.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-372">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/单调栈或队列/SlidingWindowMaximum.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="570">
+                  <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#203#212#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Tree相关/IterativeTree.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+                  <folding>
+                    <element signature="e#185#186#0" expanded="true" />
+                    <element signature="e#222#223#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Google面经/PeopleMatchBike.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="632">
+                  <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/UnDirectedCircleDetect.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-409">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Google面经/GuessWordOtherVersion.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="741">
+                  <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/DirectedCircleDetect.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="76">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -194,28 +317,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BFS难题/ShortestPathVisitingAllNodes.java" />
-        <option value="$PROJECT_DIR$/src/BFS难题/ShortestPathGetAllKeys.java" />
-        <option value="$PROJECT_DIR$/src/BFS难题/TrappingWater3D.java" />
-        <option value="$PROJECT_DIR$/src/动态规划/TwoDPArrays.java" />
-        <option value="$PROJECT_DIR$/src/Sequence序列问题/Straight.java" />
-        <option value="$PROJECT_DIR$/src/排序或优先队列问题/MaxHeap.java" />
-        <option value="$PROJECT_DIR$/src/任务调度/RearrangeStringKDistApart.java" />
-        <option value="$PROJECT_DIR$/src/Majority问题/MajorityElements.java" />
-        <option value="$PROJECT_DIR$/src/拼凑数字类型/CreateMaximumNumber.java" />
-        <option value="$PROJECT_DIR$/src/Sequence序列问题/SubSequence.java" />
-        <option value="$PROJECT_DIR$/src/Sequence序列问题/StartWithAndEndWith.java" />
-        <option value="$PROJECT_DIR$/src/数学相关/Operators.java" />
-        <option value="$PROJECT_DIR$/src/动态规划/Stock_Type.java" />
-        <option value="$PROJECT_DIR$/src/Google面经/RobotPath.java" />
-        <option value="$PROJECT_DIR$/src/随机类型/RandomPointInNonoverlappingRects.java" />
-        <option value="$PROJECT_DIR$/src/Google面经/CokeSelection.java" />
-        <option value="$PROJECT_DIR$/src/Google面经/GenerateRandomMaze.java" />
         <option value="$PROJECT_DIR$/src/编辑文本/SentenceScreenFitting.java" />
         <option value="$PROJECT_DIR$/src/单调栈或队列/IncreasingTriplet.java" />
         <option value="$PROJECT_DIR$/src/Google面经/DominondAndTrominoTiling.java" />
         <option value="$PROJECT_DIR$/src/Google面经/MyLogger.java" />
-        <option value="$PROJECT_DIR$/src/Google面经/TODO_GoogleSnapshot.java" />
         <option value="$PROJECT_DIR$/src/Google面经/FillCharsInMatrix.java" />
         <option value="$PROJECT_DIR$/src/Google面经/GuessWordOtherVersion.java" />
         <option value="$PROJECT_DIR$/src/设计相关/LFU.java" />
@@ -226,25 +331,43 @@
         <option value="$PROJECT_DIR$/src/Google面经/SearchIndex.java" />
         <option value="$PROJECT_DIR$/src/Google面经/RandomTree.java" />
         <option value="$PROJECT_DIR$/src/Google面经/EvenGreaterThanOdd.java" />
-        <option value="$PROJECT_DIR$/src/Google面经/Rythme.java" />
         <option value="$PROJECT_DIR$/src/Google面经/MyLimiter.java" />
         <option value="$PROJECT_DIR$/src/Google面经/Morris.java" />
         <option value="$PROJECT_DIR$/src/Google面经/BlueRedTree.java" />
         <option value="$PROJECT_DIR$/src/Iterator设计/Peeking类型/NestedIterator.java" />
         <option value="$PROJECT_DIR$/src/Iterator设计/BSTIterator.java" />
-        <option value="$PROJECT_DIR$/src/Trie/Trie.java" />
         <option value="$PROJECT_DIR$/src/UnionFind/WeightedUnionFind.java" />
         <option value="$PROJECT_DIR$/src/UnionFind/NumberOfIsland.java" />
         <option value="$PROJECT_DIR$/src/UnionFind/EvaluateDivision.java" />
         <option value="$PROJECT_DIR$/src/二分搜索/LISProblem.java" />
         <option value="$PROJECT_DIR$/src/Google面经/PeopleMatchBike.java" />
-        <option value="$PROJECT_DIR$/src/Google面经/GuessWord.java" />
         <option value="$PROJECT_DIR$/src/BinaryIndexedTree/BIT.java" />
         <option value="$PROJECT_DIR$/src/扫描线/Skyline.java" />
         <option value="$PROJECT_DIR$/src/Google面经/CardGame.java" />
         <option value="$PROJECT_DIR$/src/翻转元素/MinimumNumOfKConsecutiveBitFlips.java" />
         <option value="$PROJECT_DIR$/src/数学相关/EnCodeAndDeCode.java" />
+        <option value="$PROJECT_DIR$/src/Google面经/TODO_GoogleSnapshot.java" />
+        <option value="$PROJECT_DIR$/src/Google面经/GoogleSnapshot.java" />
+        <option value="$PROJECT_DIR$/src/动态规划/TwoDPArrays.java" />
+        <option value="$PROJECT_DIR$/src/Google面经/CountSquares.java" />
+        <option value="$PROJECT_DIR$/src/SegmentTree/SegmentTree.java" />
+        <option value="$PROJECT_DIR$/src/Google面经/MergeKSortedIterators.java" />
+        <option value="$PROJECT_DIR$/src/Google面经/ContainsWord.java" />
         <option value="$PROJECT_DIR$/src/双指针/窗口类型/SubstringProblem.java" />
+        <option value="$PROJECT_DIR$/src/Trie/Trie.java" />
+        <option value="$PROJECT_DIR$/src/排列组合子集/Subsets.java" />
+        <option value="$PROJECT_DIR$/src/排列组合专题/Subsets.java" />
+        <option value="$PROJECT_DIR$/src/Google面经/Rythme.java" />
+        <option value="$PROJECT_DIR$/src/Google面经/分类" />
+        <option value="$PROJECT_DIR$/src/随机类型/RandomPickIndex.java" />
+        <option value="$PROJECT_DIR$/src/Bucket使用/ContainsDuplicateIII.java" />
+        <option value="$PROJECT_DIR$/src/单调栈或队列/LargestRectangle.java" />
+        <option value="$PROJECT_DIR$/src/单调栈或队列/SlidingWindowMaximum.java" />
+        <option value="$PROJECT_DIR$/src/Tree相关/Iterative.java" />
+        <option value="$PROJECT_DIR$/src/Tree相关/IterativeTree.java" />
+        <option value="$PROJECT_DIR$/src/Google面经/GuessWord.java" />
+        <option value="$PROJECT_DIR$/src/Google面经/SkipIterator.java" />
+        <option value="$PROJECT_DIR$/src/Google面经/DeleteChar.java" />
       </list>
     </option>
   </component>
@@ -255,9 +378,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-97" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -286,34 +410,19 @@
               <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryIndexedTree" type="462c0819:PsiDirectoryNode" />
+              <item name="Google面经" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="双指针" type="462c0819:PsiDirectoryNode" />
+              <item name="SegmentTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="双指针" type="462c0819:PsiDirectoryNode" />
-              <item name="复杂问题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="双指针" type="462c0819:PsiDirectoryNode" />
-              <item name="对撞型" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="双指针" type="462c0819:PsiDirectoryNode" />
-              <item name="窗口类型" type="462c0819:PsiDirectoryNode" />
+              <item name="动态规划" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,10 +431,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="skyline&#9;PSI&#9;JAVA://排序或优先队列问题.Skyline&#10;LRU&#9;PSI&#9;JAVA://设计相关.LRU&#10;cal&#9;FILE&#9;file:///Users/yangcao/zhichihouyong/Algorithms/LeetCode2nd/src/排序问题/CalendarProblem.java" />
+    <property name="SearchEverywhereHistoryKey" value="snapshot&#9;PSI&#9;JAVA://Google面经.TODO_GoogleSnapshot.Snapshot&#10;skyline&#9;PSI&#9;JAVA://排序或优先队列问题.Skyline&#10;LRU&#9;PSI&#9;JAVA://设计相关.LRU&#10;cal&#9;FILE&#9;file:///Users/yangcao/zhichihouyong/Algorithms/LeetCode2nd/src/排序问题/CalendarProblem.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550512212471" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551946317760" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -341,22 +450,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnCodeAndDeCode">
-    <configuration name="EnCodeAndDeCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数学相关.EnCodeAndDeCode" />
-      <module name="LeetCode2nd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="数学相关.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PeopleMatchBike" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Google面经.PeopleMatchBike" />
+  <component name="RunManager" selected="Application.DeleteChar">
+    <configuration name="ContainsWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Google面经.ContainsWord" />
       <module name="LeetCode2nd" />
       <extension name="coverage">
         <pattern>
@@ -368,12 +464,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RainDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Google面经.RainDrop" />
+    <configuration name="DeleteChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Google面经.DeleteChar" />
       <module name="LeetCode2nd" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Google面经.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="单调栈或队列.LargestRectangle" />
+      <module name="LeetCode2nd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="单调栈或队列.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,8 +503,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Google面经.SearchIndex" />
+    <configuration name="SkipIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Google面经.SkipIterator" />
       <module name="LeetCode2nd" />
       <extension name="coverage">
         <pattern>
@@ -409,18 +518,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Rythme" />
-      <item itemvalue="Application.RainDrop" />
-      <item itemvalue="Application.SearchIndex" />
-      <item itemvalue="Application.PeopleMatchBike" />
-      <item itemvalue="Application.EnCodeAndDeCode" />
+      <item itemvalue="Application.ContainsWord" />
+      <item itemvalue="Application.LargestRectangle" />
+      <item itemvalue="Application.DeleteChar" />
+      <item itemvalue="Application.SkipIterator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EnCodeAndDeCode" />
-        <item itemvalue="Application.PeopleMatchBike" />
+        <item itemvalue="Application.DeleteChar" />
+        <item itemvalue="Application.SkipIterator" />
+        <item itemvalue="Application.LargestRectangle" />
         <item itemvalue="Application.Rythme" />
-        <item itemvalue="Application.SearchIndex" />
-        <item itemvalue="Application.RainDrop" />
+        <item itemvalue="Application.ContainsWord" />
       </list>
     </recent_temporary>
   </component>
@@ -441,12 +550,12 @@
       <workItem from="1541994398783" duration="4492000" />
       <workItem from="1542767565270" duration="11731000" />
       <workItem from="1545339563747" duration="48442000" />
-      <workItem from="1548055931410" duration="137597000" />
+      <workItem from="1548055931410" duration="220404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319345000" />
+    <option name="totallyTimeSpent" value="402152000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,10 +567,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2032967" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13224782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -471,8 +580,8 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2342246" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.257754" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23396227" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25660378" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
@@ -480,7 +589,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.20962566" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32919708" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.23169811" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -498,287 +607,25 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Google面经/Rythme.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/单调栈或队列/LargestRectangle.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/设计相关/LRU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="3" column="21" selection-start-line="3" selection-end-line="3" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/设计相关/LFU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/RainDrop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/TreeOccupation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/动态规划/BestTimeToBuyStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="125" column="1" lean-forward="true" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/RegexMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/SearchIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/RandomTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/TreeMaxPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/EvenGreaterThanOdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/Rythme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/MyLimiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/Morris.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/BlueRedTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterator设计/Peeking类型/NestedIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterator设计/BSTIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterator设计/Peeking类型/PeekingIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterator设计/HoppingIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <element signature="e#1491#1492#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterator设计/PairIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterator设计/PalidromeIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterator设计/RLEIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Majority问题/MajorityElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sequence序列问题/StartWithAndEndWith.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sequence序列问题/Straight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-449">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sequence序列问题/SubSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trie/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnionFind/BrickFalling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1022">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnionFind/RedundantConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnionFind/NumberOfIsland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnionFind/WeightedUnionFind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnionFind/EvaluateDivision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/二分搜索/LISProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/二分搜索/BasicMath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-624">
@@ -793,55 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/PeopleMatchBike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-          <folding>
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/GuessWordOtherVersion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/GuessWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryIndexedTree/BIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryIndexedTree/CountOfRangeSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/ExpireHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -866,13 +668,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/CardGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -922,10 +717,315 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/动态规划/TwoDPArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SegmentTree.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/CountSquares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryIndexedTree/BIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/ContainsWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="92" lean-forward="true" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/双指针/窗口类型/SubstringProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+        <state relative-caret-position="2308">
+          <caret line="165" column="5" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UnionFind/BrickFalling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UnionFind/WeightedUnionFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UnionFind/EvaluateDivision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="26" column="21" selection-start-line="25" selection-start-column="12" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/BlueRedTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排列组合专题/Subsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UnionFind/RedundantConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/分类">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/随机类型/RandomPointInNonoverlappingRects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/随机类型/RandomPickIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/随机类型/RandomPickWithWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bucket使用/ContainsDuplicateIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/单调栈或队列/LargestRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/拼凑数字类型/CreateMaximumNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-372">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/单调栈或队列/SlidingWindowMaximum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#203#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree相关/IterativeTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/PeopleMatchBike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/DirectedCircleDetect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/图和拓扑排序/UnDirectedCircleDetect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/GuessWordOtherVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trie/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/GuessWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="131" column="1" lean-forward="true" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/Somorphic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/ExpireHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/CardGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="731" selection-start-line="731" selection-end-line="731" />
+          <folding>
+            <element signature="e#25690#25691#0" expanded="true" />
+            <element signature="e#25742#25743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/GoogleSnapshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/SkipIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/动态规划/Game_Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/MergeKSortedIterators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SegmentTree/SegmentTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/DeleteChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/Rythme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
         </state>
       </provider>
     </entry>

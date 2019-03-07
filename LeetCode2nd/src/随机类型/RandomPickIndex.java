@@ -2,6 +2,9 @@ package 随机类型;
 
 import java.util.Random;
 
+/**
+ * 蓄水池抽样算法：后面重复出现的以一定概率替代前面的
+ */
 public class RandomPickIndex {
     Random rand;
     int [] nums;

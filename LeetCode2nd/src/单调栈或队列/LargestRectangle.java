@@ -28,6 +28,11 @@ public class LargestRectangle {
         }
         return sum;
     }
+
+    public static  void main(String[] args) {
+		LargestRectangle l = new LargestRectangle();
+		System.out.println(largestRectangleArea(new int[]{2,1,5,6,3,4}));
+	}
 	
 	/**
 	 * 85. Maximal Rectangle

@@ -3,6 +3,12 @@ package Trie;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Then why do we need trie? Although hash table has O(1) time complexity for looking for a key, it is not efficient in the following operations :
+ * -Finding all keys with a common prefix.
+ * -Enumerating a dataset of strings in lexicographical order.
+ * Another reason why trie outperforms hash table, is that as hash table increases in size, there are lots of hash collisions and the search time complexity could deteriorate to O(n)O(n), where nn is the number of keys inserted.
+ */
 public class Trie {
     class TrieNode{
         TrieNode[] children;
@@ -71,6 +77,7 @@ public class Trie {
             if (node.children[i] != null) {
                 sb.append((char)(i + 'a'));
                 helper(node.children[i], res, sb);
+                sb.deleteCharAt(sb.length() - 1);
             }
         }
     }
