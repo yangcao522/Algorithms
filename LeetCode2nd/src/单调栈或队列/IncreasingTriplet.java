@@ -13,6 +13,9 @@ public class IncreasingTriplet {
 	 * step3 : 1 4
 	 * step4 : 1 3
 	 * step5 : 1 3 5 (只要这个单调递增的栈大小到达3，那么就证明存在Triplet)
+     *
+     * 这个和longest increasing subsequence是不是非常的神似？？？
+     * 就是那个binary search的方法 找插入的点
 	 */
 	public boolean increasingTriplet(int[] nums) {
         int min_1 = Integer.MAX_VALUE;

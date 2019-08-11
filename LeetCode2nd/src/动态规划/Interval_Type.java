@@ -21,7 +21,7 @@ public class Interval_Type {
             dp[i] = i - 1;
         }
         for(int i = 0; i <= n; i++){
-        		//odd
+            //odd
             for(int j = 0; i - j >= 0 && i + j < n && s.charAt(i - j) == s.charAt(i + j); j++)
                 dp[i + j + 1] = Math.min(dp[i + j + 1], 1 + dp[i - j]);
             //even

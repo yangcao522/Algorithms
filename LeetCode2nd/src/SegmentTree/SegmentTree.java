@@ -39,6 +39,7 @@ public class SegmentTree {
         return root;
     }
 
+    //update 一个 index
     public void update(Node root, int index, int val) {
         if (root == null) return;
         if (root.s == root.e && root.s == index) {

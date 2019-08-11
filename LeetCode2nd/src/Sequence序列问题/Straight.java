@@ -48,6 +48,7 @@ public class Straight {
     }
 
     /**
+     * 排序 very straightforward
      * 846. Hand of Straights
      * [1,2,3,6,2,3,4,7,8], W = 3
      * [1,2,3],[2,3,4],[6,7,8]

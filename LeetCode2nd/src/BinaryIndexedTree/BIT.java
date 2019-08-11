@@ -1,7 +1,6 @@
 package BinaryIndexedTree;
 
 public class BIT {
-
     int[] sum;
     public void update(int i, int delta) {
         while (i < sum.length) {

@@ -22,7 +22,7 @@ public class Hierholzer {
     private void dfs(List<String> res, Map<String, PriorityQueue<String>> map, String str){
         //res.add(str);
         while(map.containsKey(str) && !map.get(str).isEmpty()){
-            dfs(res, map, map.get(str).poll());
+            dfs(res, map, map.get(str).poll());//这里把它poll掉就不会重复访问到了
         }
         res.add(0, str);
     }

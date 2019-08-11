@@ -32,7 +32,7 @@ public class Paint {
 	public int minCost(int[][] costs) {
         if(costs == null || costs.length == 0)
             return 0;
-        int [] pre = new int[]{costs[0][0], costs[0][1], costs[0][2] };
+        int [] pre = new int[]{costs[0][0], costs[0][1], costs[0][2]};
         int [] cur = new int[3];
         for(int i = 1; i < costs.length; i++){
             cur[0] = Math.min(pre[1], pre[2]) + costs[i][0];
@@ -60,6 +60,7 @@ public class Paint {
             int minIndex = -1;
             for(int j = 0; j < costs[0].length; j++){
                 int val = costs[i][j] + (j == preminIndex ? presecMin : premin);
+                //这里相当于初始化
                 if(minIndex < 0){
                     min = val;
                     minIndex = j;

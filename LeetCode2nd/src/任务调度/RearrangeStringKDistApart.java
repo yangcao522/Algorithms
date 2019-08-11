@@ -16,11 +16,7 @@ public class RearrangeStringKDistApart {
             map.put(c, map.get(c) + 1);
         }
         PriorityQueue<Map.Entry<Character, Integer>> maxQueue = new PriorityQueue<>(
-                new Comparator<Map.Entry<Character, Integer>>() {
-                    public int compare(Map.Entry<Character, Integer> entry1, Map.Entry<Character, Integer> entry2) {
-                        return entry2.getValue() - entry1.getValue();
-                    }
-                }
+                (entry1, entry2) -> entry2.getValue() - entry1.getValue()
         );
         Queue<Map.Entry<Character, Integer>> waitQueue = new LinkedList<>();
         maxQueue.addAll(map.entrySet());

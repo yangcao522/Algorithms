@@ -86,7 +86,9 @@ public class BestTimeToBuyStock {
 			return profit;
 		}
 
+		//在第i天卖出股票，最多交易了k次，所获得的最大收益
 		int[][] localMax = new int[N][K + 1];
+		//在前i天卖出股票，最多交易了k次，所获得的最大收益
 		int[][] globalMax = new int[N][K + 1];
 		for (int i = 1; i < N; i++) {
 			int diff = prices[i] - prices[i - 1];

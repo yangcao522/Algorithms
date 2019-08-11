@@ -35,6 +35,7 @@ public class BrickFalling {
             int r = hits[t][0];
             int c = hits[t][1];
             int preRoof = dsu.top();
+            //假如原本就没击中方块
             if (grid[r][c] == 0) {
                 t--;
             } else {

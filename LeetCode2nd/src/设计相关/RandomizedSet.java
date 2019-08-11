@@ -8,7 +8,7 @@ public class RandomizedSet {
 	 * 这里的组合是map + list
 	 */
 	private Map<Integer, Integer> map;//<value, index>
-	private List<Integer> list;
+	private List<Integer> list; //<index, value>
     public RandomizedSet() {
         map = new HashMap<>();
         list = new ArrayList<>();

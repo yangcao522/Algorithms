@@ -20,6 +20,8 @@ public class Isomorphic {
 			if(mapT.containsKey(charT) && mapT.get(charT) != charS) {
 				return false;
 			}
+			mapS.put(charS, charT);
+			mapT.put(charT, charS);
 		}
 		return true;
 	}

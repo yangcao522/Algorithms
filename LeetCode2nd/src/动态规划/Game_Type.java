@@ -61,6 +61,7 @@ public class Game_Type {
 			return 0;
 		}
 		if(dp[coins] != -1) return dp[coins];
+		//because the other player will try their best
 		int takeOne = values[n - coins] + Math.min(search(coins - 2, dp, values, n), search(coins - 3, dp, values, n));
 		int takeTwo = values[n - coins] + values[n - coins + 1] + Math.min(search(coins - 3, dp, values, n), search(coins - 4, dp, values, n));
 		int max = Math.max(takeOne, takeTwo);
