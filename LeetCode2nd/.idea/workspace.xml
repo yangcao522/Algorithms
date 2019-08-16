@@ -2,55 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="536d4c08-0dfc-4db3-a708-00d82593e7dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/AmazonAir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/ClosestKPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/LinuxFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/MergeFils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/MinimumSpanningTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/Music2Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmazonOA/ReorderLogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Contest专用Debug/ContestDebug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Contest专用Debug/NumberOfLIS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Contest专用Debug/RectangleArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Contest专用Debug/RemoveInvalidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SegmentTree/NumOfLIS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SegmentTree/RectangleArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cruise/AutonomousPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cruise/Calculator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cruise/Calculator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cruise/Calculator3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cruise/KWMergeInterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cruise/KWaysMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cruise/KWaysMergeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cruise/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cruise/SparseMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cruise/TextBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/BinaryIndexedTree/BIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/BinaryIndexedTree/BIT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/SegmentTree/SegmentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/SegmentTree/SegmentTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/Sequence序列问题/Straight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/Sequence序列问题/Straight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/BrickFalling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/BrickFalling.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/DSU.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/UnionFind/DSU.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/任务调度/RearrangeStringKDistApart$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/任务调度/RearrangeStringKDistApart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/任务调度/RearrangeStringKDistApart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/动态规划/BestTimeToBuyStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/动态规划/BestTimeToBuyStock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/动态规划/Game_Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/动态规划/Game_Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/动态规划/Paint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/动态规划/Paint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/单调栈或队列/IncreasingTriplet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/单调栈或队列/IncreasingTriplet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/哈希表/Isomorphic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/哈希表/Isomorphic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/图和拓扑排序/UnDirectedCircleDetect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/图和拓扑排序/UnDirectedCircleDetect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/排列组合专题/Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode2nd/排列组合专题/Subsets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode2nd/滑动窗口/SlidingWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryIndexedTree/BIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryIndexedTree/BIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sequence序列问题/Straight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sequence序列问题/Straight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind/BrickFalling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/BrickFalling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/任务调度/RearrangeStringKDistApart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/任务调度/RearrangeStringKDistApart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/BestTimeToBuyStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/BestTimeToBuyStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/Game_Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/Game_Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/Interval_Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/Interval_Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/动态规划/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/动态规划/Paint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/单调栈或队列/IncreasingTriplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/单调栈或队列/IncreasingTriplet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/哈希表/Isomorphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/哈希表/Isomorphic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/图和拓扑排序/Hierholzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/图和拓扑排序/Hierholzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/图和拓扑排序/UnDirectedCircleDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/图和拓扑排序/UnDirectedCircleDetect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/排列组合专题/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排列组合专题/Subsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/滑动窗口/SlidingWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/设计相关/RandomizedSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/设计相关/RandomizedSet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,17 +26,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Google面经/MyLogger.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Cruise/Reverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="500">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding>
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1124#1125#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Google面经/PeopleMatchBike.java">
+        <entry file="file://$PROJECT_DIR$/src/Cruise/AutonomousPower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cruise/SparseMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cruise/Calculator3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cruise/Calculator2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cruise/Calculator1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -83,28 +88,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Google面经/RainDrop.java">
+        <entry file="file://$PROJECT_DIR$/src/Cruise/KWaysMerge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="760">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Google面经/RandomTree.java">
+        <entry file="file://$PROJECT_DIR$/src/Cruise/KWaysMergeArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AmazonOA/LinuxFind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="337" column="15" selection-start-line="337" selection-start-column="15" selection-end-line="337" selection-end-column="15" />
+            <state relative-caret-position="320">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,47 +112,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/UnionFind/WeightedUnionFind.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cruise/KWMergeInterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-917">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="880">
+              <caret line="44" column="107" lean-forward="true" selection-start-line="44" selection-start-column="107" selection-end-line="44" selection-end-column="107" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UnionFind/RedundantConnection.java">
+        <entry file="file://$PROJECT_DIR$/src/Cruise/TextBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-372">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UnionFind/NumberOfIsland.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="857">
-              <caret line="64" column="47" lean-forward="true" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UnionFind/EvaluateDivision.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Google面经/ExpireHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="-86">
+              <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -180,13 +158,22 @@
         <option value="$PROJECT_DIR$/src/AmazonOA/Music2Sum.java" />
         <option value="$PROJECT_DIR$/src/AmazonOA/MergeFils.java" />
         <option value="$PROJECT_DIR$/src/AmazonOA/LinuxFind.java" />
+        <option value="$PROJECT_DIR$/src/Cruise/TextBox.java" />
+        <option value="$PROJECT_DIR$/src/Cruise/KWaysMerge.java" />
+        <option value="$PROJECT_DIR$/src/Cruise/KWaysMergeArray.java" />
+        <option value="$PROJECT_DIR$/src/Cruise/KWMergeInterator.java" />
+        <option value="$PROJECT_DIR$/src/Cruise/AutonomousPower.java" />
+        <option value="$PROJECT_DIR$/src/Cruise/SparseMatrix.java" />
+        <option value="$PROJECT_DIR$/src/Cruise/Calculator3.java" />
+        <option value="$PROJECT_DIR$/src/Cruise/Calculator2.java" />
+        <option value="$PROJECT_DIR$/src/Cruise/Calculator1.java" />
+        <option value="$PROJECT_DIR$/src/Cruise/Reverse.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="23" />
-    <option name="width" value="2556" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="207" />
+    <option name="width" value="1539" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -195,6 +182,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,59 +200,12 @@
               <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AmazonOA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AmazonOA" type="462c0819:PsiDirectoryNode" />
-              <item name="LinuxFind.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryIndexedTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Google面经" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Google面经" type="462c0819:PsiDirectoryNode" />
-              <item name="ExpireHashMap.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Integer操作相关" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode2nd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode2nd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
-              <item name="BrickFalling.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Cruise" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,13 +228,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeFils">
-    <configuration name="AmazonAir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AmazonOA.AmazonAir" />
+  <component name="RunManager" selected="Application.SparseMatrix">
+    <configuration name="AutonomousPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cruise.AutonomousPower" />
       <module name="LeetCode2nd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AmazonOA.*" />
+          <option name="PATTERN" value="Cruise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClosestKPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AmazonOA.ClosestKPoints" />
+    <configuration name="KWMergeInterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cruise.KWMergeInterator" />
       <module name="LeetCode2nd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AmazonOA.*" />
+          <option name="PATTERN" value="Cruise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AmazonOA.Maze" />
+    <configuration name="KWaysMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cruise.KWaysMerge" />
       <module name="LeetCode2nd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AmazonOA.*" />
+          <option name="PATTERN" value="Cruise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeFils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AmazonOA.MergeFils" />
+    <configuration name="KWaysMergeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cruise.KWaysMergeArray" />
       <module name="LeetCode2nd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AmazonOA.*" />
+          <option name="PATTERN" value="Cruise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,12 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumSpanningTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AmazonOA.MinimumSpanningTree" />
+    <configuration name="SparseMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cruise.SparseMatrix" />
       <module name="LeetCode2nd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AmazonOA.*" />
+          <option name="PATTERN" value="Cruise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeFils" />
-        <item itemvalue="Application.AmazonAir" />
-        <item itemvalue="Application.Maze" />
-        <item itemvalue="Application.ClosestKPoints" />
-        <item itemvalue="Application.MinimumSpanningTree" />
+        <item itemvalue="Application.SparseMatrix" />
+        <item itemvalue="Application.AutonomousPower" />
+        <item itemvalue="Application.KWMergeInterator" />
+        <item itemvalue="Application.KWaysMergeArray" />
+        <item itemvalue="Application.KWaysMerge" />
       </list>
     </recent_temporary>
   </component>
@@ -375,17 +317,19 @@
       <workItem from="1560403678272" duration="19747000" />
       <workItem from="1562467270997" duration="6536000" />
       <workItem from="1565060906203" duration="1849000" />
+      <workItem from="1565495012427" duration="703000" />
+      <workItem from="1565676927792" duration="15221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28132000" />
+    <option name="totallyTimeSpent" value="44056000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="2556" height="1027" extended-state="0" />
+    <frame x="4" y="23" width="2556" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13564041" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13802704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -394,7 +338,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36684492" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20603773" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23245282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,7 +346,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23245282" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32981133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -427,6 +371,18 @@
           <line>53</line>
           <properties />
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Cruise/TextBox.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Cruise/TextBox.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -621,16 +577,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google面经/ExpireHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AmazonOA/LinuxFind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="5940">
           <caret line="337" column="15" selection-start-line="337" selection-start-column="15" selection-end-line="337" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -640,29 +589,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UnionFind/RedundantConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
+        <state relative-caret-position="80">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UnionFind/NumberOfIsland.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="857">
-          <caret line="64" column="47" lean-forward="true" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+        <state relative-caret-position="1180">
+          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UnionFind/EvaluateDivision.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="140">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google面经/ExpireHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UnionFind/WeightedUnionFind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-917">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="380">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cruise/KWaysMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cruise/KWaysMergeArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cruise/AutonomousPower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cruise/Calculator2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cruise/Calculator1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cruise/TextBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cruise/Calculator3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cruise/SparseMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cruise/KWMergeInterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="44" column="107" lean-forward="true" selection-start-line="44" selection-start-column="107" selection-end-line="44" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cruise/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
